@@ -17,7 +17,10 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+
   .config(function ($routeProvider) {
+    new WOW().init();
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',

@@ -8,10 +8,14 @@
  * Controller of the rocketApp
  */
 angular.module('rocketApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .config(function () {
+    new WOW().init();
+  })
+  .controller('MainCtrl', ['$scope',
+    function ($scope) {
+      this.awesomeThings = [
+        'HTML5 Boilerplate',
+        'AngularJS',
+        'Karma'
+      ];
+    }]);

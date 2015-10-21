@@ -25,19 +25,9 @@ a.active {
     color: #18bc9c;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-about {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -47,7 +37,8 @@ hr.star-primary {
 }
 
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-about:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -57,13 +48,22 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
-hr.star-light {
+hr.star-light{
     border-color: #fff;
 }
 
 hr.star-light:after {
     color: #fff;
     background-color: #4FC3F7;
+}
+
+hr.star-about {
+  border-color: #fff;
+}
+
+hr.star-about:after {
+  color: #fff;
+  background-color: #FFAB40;
 }
 
 hr.star-primary {
@@ -98,7 +98,6 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -149,7 +148,6 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -193,7 +191,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #FFAB40;
 }
 
 section.success a,
@@ -286,7 +284,8 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #3F51B5;
+;
     background: #fff;
 }
 
