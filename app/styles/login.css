@@ -1,5 +1,5 @@
 .loggin {
-  background: #bcdee7 url("http://victory-design.ru/sandbox/codepen/profile_card/bg.png") no-repeat center center fixed;
+  background: #eeeeee url("http://victory-design.ru/sandbox/codepen/profile_card/bg.png") no-repeat center center fixed;
   background-size: 120% auto;
   position: fixed;
   padding: 0px;
@@ -24,6 +24,7 @@
 {
   font-weight: normal;
 }
+
 .form-signin .form-control
 {
   position: relative;
@@ -34,6 +35,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .form-signin .form-control:focus
 {
   z-index: 2;

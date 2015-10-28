@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #0fb2fc;
 }
 
 hr.star-light,
@@ -153,7 +153,6 @@ header .intro-text .skills {
 
 .navbar.navbar, .navbar-default.navbar {
   background-color: #3F51B5;
-  /*background-color: #0288D1;*/
   color: rgba(255, 255, 255, 0.84);
 }
 
@@ -180,6 +179,14 @@ header .intro-text .skills {
     border: 0;
 }
 
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control.active
+{
+  background-image: linear-gradient(#3F51B5, #3F51B5), linear-gradient(#d2d2d2, #d2d2d2);
+}
+
 section {
     padding: 100px 0;
 }
@@ -200,7 +207,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #0fb2fc;
 }
 
 @media(max-width:767px) {
